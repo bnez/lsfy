@@ -1,6 +1,5 @@
 package org.bnez.xiaoyue.lsfy.rsp;
 
-import org.apache.log4j.Logger;
 import org.bnez.lsfy.service.BizServiceClient;
 import org.bnez.lsfy.service.FayuanBean;
 import org.bnez.xiaoyue.lsfy.XiaoyueResponse;
@@ -8,7 +7,7 @@ import org.bnez.xiaoyue.lsfy.db.User;
 
 public class FayuanParser
 {
-	private static final Logger _logger = Logger.getLogger(FayuanParser.class);
+	//private static final Logger _logger = Logger.getLogger(FayuanParser.class);
 	
 	private boolean _hasError = false;
 	private XiaoyueResponse _response = null;
